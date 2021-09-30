@@ -1,5 +1,6 @@
 # auto_pinger
 This is a working project that is used to take a source list of IPs or Hostnames, and output their status, and basic information about the system itself.
+This currently works in both linux and windows environments.
 
 
 Python Requirements:
@@ -14,6 +15,6 @@ install:
 2 - git clone https://github.com/ddumo/auto_pinger.git
 3 - to start the file: python3 auto_pinger.py
  
-Note: if you want to make the program to be able to be called from an easier name say "ping" or "auto" do the following:
+Note (linux only): if you want to make the program to be able to be called from an easier name say "ping" or "auto" do the following:
    1 - chmod+x auto_pinger.py 
    2 - sudo cp auto_pinger.py /bin/auto <-- replace "auto" with how you'd like to call the program
